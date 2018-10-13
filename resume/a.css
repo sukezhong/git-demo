@@ -1,0 +1,349 @@
+
+body{
+  background: #EFEFEF;
+  color: black;
+  margin: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+*{
+  margin: 0;
+  padding: o;
+}
+hr{
+  height: 0;
+  border: none;
+  border-top: 1px solid #dedede;
+
+}
+ul,ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+font-weight: normal;
+}
+.topNavBar{
+  padding: 20px 0px 20px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.topNavBar-inner{
+  padding: 0px 16px 0px 16px;
+ 
+}
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+.topNavBar nav{
+  padding-top: 10px;
+  float: right;
+}
+.topNavBar nav>ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topNavBar nav>ul>li{
+  float: left;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.topNavBar nav>ul>li>a{
+  font-size: 12px;
+  color: #b7b7b7;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  /* #让li包裹a */
+  display: block; 
+  
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+
+}
+.logo{
+  float: left;
+}
+/* nav{
+  float: right;
+} */
+.topNavBar nav>ul>li>a:hover{
+border-bottom: 3px solid #e06567;
+
+}
+.topNavBar .logo{
+  font-size: 24px;
+  font-family: "Arial Black";
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+.topNavBar .logo .se{
+  margin-right: 4px;
+  color: #e06567;
+}
+.topNavBar .logo .card{
+  color: #b7b7b7;
+
+}
+.banner{
+  height: 515px;
+  background-image: url(./img/rs-cover-2-2-1-1.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.banner .mask{
+  height: 515px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.userCard{
+  max-width:940px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+}
+.userCard .welcome{
+  background: #e06567;
+  color: white;
+  padding: 4px 16px;
+  line-height: 22px;
+  position: relative;
+}
+.userCard .welcome .triangle{
+  display: block;
+  border:10px solid transparent;
+  width:0;
+  border-left-color:#E6686A;
+  border-top-width:0;
+  position: absolute;
+  left: 4px;
+  top: 100%;
+}
+.userCard .picture{
+  float: left;
+}
+.userCard .text{
+  float: left;
+  margin-left: 65px;
+  width: 470px;
+}
+.userCard .text hr{
+  margin: 20px 0;
+}
+.userCard .text h1{
+  margin-top: 18px;
+}
+.userCard .pictureAndText{
+  padding: 50px;
+}
+
+.userCard li:nth-child(odd){
+  float: left;
+  font-size: 14px;
+  /* border: 1px solid red; */
+  
+  width: 45%;
+  padding: 5px 0;
+  box-sizing: border-box;
+  line-height: 25px;
+}
+.userCard li:nth-child(even){
+  float: left;
+  font-size: 14px;
+  
+  width: 45%;
+  font-weight: bold;
+  line-height: 25px;
+  box-sizing: border-box;
+  padding: 5px 0;
+
+}
+
+.userCard >footer.media{
+  background-color: #E6686A;
+  text-align: center;
+}
+.userCard >footer.media>a{
+  display: inline-block;
+  width: 40px;
+  line-height: 30px;
+  padding: 5px 0;
+  border-radius: 50%;
+  margin: 16px;
+  
+}
+.userCard >footer.media>a:hover{
+  background-color: #cf5d5f;
+}
+.userCard svg{
+  width: 30px;
+  height: 30px;
+  fill: #ffffff;
+  vertical-align: top;
+}
+body >main{
+  margin-top: -340px;
+}
+body >main .downloadResume{
+  display: inline-block;
+  border: 1px solid #CDCFD1;
+  background-color: #EFEFEF;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 21px 55px;
+  border-radius: 2px;
+  color: #3d4451;
+  font-weight: bold;
+  margin: 32px 0;
+
+}
+body >main .downloadResume:hover{
+  box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.2);
+  transition: box-shadow 0.2s;
+}
+.downloadResume-wrapper{
+  text-align: center;
+}
+.selfIntroduction{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.8;
+  font-family: kai;
+  font-size: 18px;
+}
+section.skills,
+section.portfolio{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+section.skills >h2{
+  text-align: center;
+  color: #3d4451;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+section.portfolio >h2{
+  text-align: center;
+  color: #3d4451;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+section.skills>h3{
+  text-align: center;
+  color: #3d4451;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 600;
+  
+}
+section.skills>ol{
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+  padding: 42px 50px 10px; 
+}
+section.skills>ol>li:nth-child(odd){
+  float: left;
+  width: 48%;
+  box-sizing: border-box;
+}
+section.skills>ol>li:nth-child(even){
+  float: right;
+  width: 48%;
+  box-sizing: border-box;
+}
+section.skills .progressBar{
+  height: 5px;
+  background-color: #FAE1E1;
+  border-radius: 2px;
+  margin: 4px 0 40px;
+}
+section.skills .progressBar .progress{
+  height: 100%;
+  background-color: #cf5d5f;
+  width: 70%;
+  border-radius: 2px;
+}
+section.portfolio >nav{
+  text-align: center;
+}
+section.portfolio >nav >ol{
+  display: inline-block;
+  vertical-align: top;
+}
+section.portfolio >nav >ol >li{
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+}
+section.portfolio >nav >ol >li:nth-child(1){
+  margin-left:0; 
+}
+section.portfolio{
+  margin-bottom: 20px;
+  text-align: center;
+}
+section.portfolio >nav{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+section.portfolio >nav .bar{
+  height: 5px;
+  background:white;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  border-radius: 2px;
+}
+section.portfolio >nav .bar-inner{
+  height: 100%;
+  background: #E6686A;
+  border-radius: 2px; 
+}
+section.portfolio >nav .bar.state-1 .bar-inner{
+  margin-left: 0;
+  width: 50px;
+}
+section.portfolio >nav .bar.state-2 .bar-inner{
+  margin-left: 65px;
+  width: 50px;
+}
+section.portfolio >nav .bar.state-3 .bar-inner{
+  margin-left: 140px;
+  width: 96px;
+}
+section.portfolio .works{
+  position: relative;
+  height: 597px;
+}
+
+section.portfolio .works > .big{
+  position: absolute;
+  top: 0px;
+  
+}
+section.portfolio .works > .small1{
+  position: absolute;
+  top: 0px;
+  left: 645px;
+}
+section.portfolio .works > .small2{
+  position: absolute;
+  top: 312px;
+  left: 645px;
+}

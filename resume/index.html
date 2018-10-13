@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>灿灿的简历</title>
+<link rel="stylesheet" href="./a.css">
+<script src="//at.alicdn.com/t/font_862569_8w410m7ii7.js"></script>
+<style type="text/css">
+	.icon {
+		 width: 1em; height: 1em;
+		 vertical-align: -0.15em;
+		 fill: currentColor;
+		 overflow: hidden;
+	}
+</style>
+</head>
+<body>
+<!-- <hr>	 -->
+ <div class="topNavBar">
+	 <div class="topNavBar-inner clearfix">
+			<a href="#" class="logo" alt="logo">
+					<span class="se">SUKE</span><span class="card">Card</span>
+				 </a>
+				<nav>
+				 <ul class="clearfix">
+					<li><a href="#">ABOUT</a></li>
+					 <li><a href="#">SKILLS</a></li>
+					 <li><a href="#">PORTFOLIO</a></li>
+					 <li><a href="#">EXPERIENCE</a></li>
+					 <li><a href="#">PRICING</a></li>
+					 <li><a href="#">BLOG</a></li>
+						<li><a href="#">CALENDAR</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">OTHER</a></li>
+				 </ul> 	
+				</nav>
+	 </div>
+	 
+ </div>
+ <div class="banner">
+	 <div class="mask"></div>
+ </div>
+ <main>
+	 <div class="userCard">
+			<div class="pictureAndText clearfix">
+				<div class="picture">
+						<img src="./img/avatar.jpg" alt="icon" width="299" height="347">
+				</div>								
+				<div class="text">
+						 <span class="welcome">Hello
+							 <span class="triangle"></span>
+						 </span>
+						 <h1>suke</h1>
+						 <p>前端开发工程师<p>
+						 <hr>	
+						 <ol class="clearfix">
+							 <li>年龄</li>
+							 <li>18</li>
+							 <li>所在城市</li>
+							 <li>成都</li>
+							 <li>邮箱</li>
+							 <li>ruicanzhong@foxmail.com</li>
+						 </ol>
+	 
+				</div>
+			</div>
+			<footer class="media">
+					<a href="#">
+							<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-github"></use>
+							</svg>
+					</a>
+					<a href="#">
+							<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-weixin"></use>
+							</svg>
+					</a>
+					<a href="#">
+							<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-weibiaoti-"></use>
+							</svg>
+					</a>
+				</footer>	
+	 </div>
+
+		<p class="downloadResume-wrapper">
+			<a href="./resume.pdf" class="downloadResume" target="_blank" download>下载PDF简历</a>
+		</p>
+	 <p class="selfIntroduction">
+			会设计、会代码、会乐器<br>
+			做过运营、写过公众号文章、组过乐队、做过商演<br>
+
+	 </p>
+	 
+ </main>
+ <section class="skills">
+	 <h2>技能</h2>
+	 <ol class="clearfix">
+		 <li>
+			 <h3>
+				HTML 5 &amp; CSS 3
+			 </h3>
+			 <div class="progressBar">
+				 <div class="progress">
+
+				 </div>
+			 </div>
+		 </li>
+		 <li>
+				<h3>
+				 JavaScript
+				</h3>
+				<div class="progressBar">
+					<div class="progress">
+ 
+					</div>
+				</div>
+			</li>
+			<li>
+					<h3>
+					 jQuery
+					</h3>
+					<div class="progressBar">
+						<div class="progress">
+	 
+						</div>
+					</div>
+			</li>
+			<li>
+					<h3>
+					 Vue.js
+					</h3>
+					<div class="progressBar">
+						<div class="progress">
+	 
+						</div>
+					</div>
+			</li>
+			<li>
+					<h3>
+					 React.js
+					</h3>
+					<div class="progressBar">
+						<div class="progress">
+	 
+						</div>
+					</div>
+			</li>
+			<li>
+					<h3>
+					 Node.js
+					</h3>
+					<div class="progressBar">
+						<div class="progress">
+	 
+						</div>
+					</div>
+			</li>
+
+		 
+	 </ol>
+ </section>
+ <section class="portfolio">
+	 <h2>作品集</h2>
+	 	<nav>
+			<ol class="clearfix">
+				<li id="portfolio1">所有</li>
+				<li id="portfolio2">框架</li>
+				<li id="portfolio3">原生JS&amp;CSS</li>
+			</ol>
+			<div id="portfolioBar" class="bar state-1">
+				<div class="bar-inner">
+				</div>
+			</div>
+		 </nav>
+		 <script>
+			 portfolio1.onclick = function(){
+				porfolioBar.className = 'bar state-1'
+			 }
+			 portfolio2.onclick = function(){
+				portfolioBar.className = 'bar state-2'
+			 }
+			 portfolio3.onclick = function(){
+				 portfolioBar.className = 'bar state-3'
+			 }
+		 </script>
+	
+
+	 <div class="works">
+		 <div class="big">
+			 <img src="./img/zuopin1.jpeg" alt="作品1">
+		 </div>
+		 <div class="small1">
+			 <img src="./img/zuopin2.jpg" alt="作品2">
+		 </div>
+		 <div class="small2">
+				<img src="./img/zuopin3.jpg" alt="作品3">
+		 </div>
+	 </div>
+ </section>
+</body>
+</html>
